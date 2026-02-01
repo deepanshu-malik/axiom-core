@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Axiom specific
+.env
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector store data
+*.index
+*.faiss
+
+# Experiment results
+results/
+outputs/
+logs/
+
+# API keys (extra safety)
+*_key.txt
+secrets/
