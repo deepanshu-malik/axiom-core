@@ -4,7 +4,7 @@
 
 Operational guide for `axiom-core/src/axiom/api/`.
 
-For endpoint design and request/response schemas, see [Endpoints Reference](../../docs/api/endpoints.md).
+For endpoint design and request/response schemas, see [Endpoints Reference](api/endpoints.md).
 
 ---
 
@@ -103,7 +103,7 @@ Returns current runtime configuration — all fields sourced from `axiom.config.
 }
 ```
 
-All these values can be changed via `.env` without touching code. See [Configuration](../../docs/getting-started/installation.md#configuration-reference).
+All these values can be changed via `.env` without touching code. See [Configuration](getting-started/installation.md#configuration-reference).
 
 ---
 
@@ -172,7 +172,7 @@ from axiom.api import my_route
 app.include_router(my_route.router)
 ```
 
-4. Add the endpoint to [Endpoints Reference](../../docs/api/endpoints.md).
+4. Add the endpoint to [Endpoints Reference](api/endpoints.md).
 
 ---
 
@@ -201,7 +201,7 @@ async def test_health():
 
 ## Related Docs
 
-- [API Overview](../../docs/api/overview.md)
-- [Endpoints Reference](../../docs/api/endpoints.md)
+- [API Overview](api/overview.md)
+- [Endpoints Reference](api/endpoints.md)
 - [RAG Engine](rag-engine.md) — Phase 4 wiring of `/query`
 - [axiom-core index](index.md)

@@ -87,9 +87,9 @@ pytest tests/ -v
 
 ## Related Project Docs
 
-- [API Overview](../../docs/api/overview.md)
-- [Endpoints Reference](../../docs/api/endpoints.md)
-- [Architecture Overview](../../docs/architecture/overview.md)
-- [Data Flow](../../docs/architecture/data-flow.md)
-- [RAG Pipeline](../../docs/rag/pipeline.md)
-- [Model Layer Overview](../../docs/models/overview.md)
+- [API Overview](api/overview.md)
+- [Endpoints Reference](api/endpoints.md)
+- [Architecture Overview](architecture/overview.md)
+- [Data Flow](architecture/data-flow.md)
+- [RAG Pipeline](rag/pipeline.md)
+- [Model Layer Overview](models/overview.md)

@@ -4,7 +4,7 @@
 
 Implementation guide for `axiom-core/src/axiom/vectorstore/`.
 
-For concepts, see [Embeddings](../../docs/rag/embeddings.md) and [Chunking Strategies](../../docs/rag/chunking.md).
+For concepts, see [Embeddings](rag/embeddings.md) and [Chunking Strategies](rag/chunking.md).
 
 ---
 
@@ -269,7 +269,7 @@ async def test_count(store):
 
 ## Related Docs
 
-- [Embeddings](../../docs/rag/embeddings.md)
-- [Chunking Strategies](../../docs/rag/chunking.md)
-- [RAG Pipeline](../../docs/rag/pipeline.md)
+- [Embeddings](rag/embeddings.md)
+- [Chunking Strategies](rag/chunking.md)
+- [RAG Pipeline](rag/pipeline.md)
 - [axiom-core index](index.md)

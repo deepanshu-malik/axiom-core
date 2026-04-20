@@ -4,7 +4,7 @@
 
 Implementation guide for `axiom-core/src/axiom/models/`.
 
-For concepts and provider comparison, see [Model Layer Overview](../../docs/models/overview.md) and [Providers](../../docs/models/providers.md).
+For concepts and provider comparison, see [Model Layer Overview](models/overview.md) and [Providers](models/providers.md).
 
 ---
 
@@ -214,7 +214,7 @@ async def test_cost_calculation():
 
 ## Related Docs
 
-- [Model Layer Overview](../../docs/models/overview.md)
-- [Providers](../../docs/models/providers.md)
-- [Cost Tracking](../../docs/models/cost-tracking.md)
+- [Model Layer Overview](models/overview.md)
+- [Providers](models/providers.md)
+- [Cost Tracking](models/cost-tracking.md)
 - [axiom-core index](index.md)

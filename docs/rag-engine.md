@@ -4,7 +4,7 @@
 
 Implementation guide for `axiom-core/src/axiom/rag/` and `axiom-core/src/axiom/mcp/`.
 
-For concepts, see [RAG Pipeline](../../docs/rag/pipeline.md) and [Retrieval Strategies](../../docs/rag/retrieval.md).
+For concepts, see [RAG Pipeline](rag/pipeline.md) and [Retrieval Strategies](rag/retrieval.md).
 
 ---
 
@@ -276,7 +276,7 @@ async def query_knowledge(
 
 ## Related Docs
 
-- [RAG Pipeline](../../docs/rag/pipeline.md)
-- [Retrieval Strategies](../../docs/rag/retrieval.md)
-- [Data Flow](../../docs/architecture/data-flow.md)
+- [RAG Pipeline](rag/pipeline.md)
+- [Retrieval Strategies](rag/retrieval.md)
+- [Data Flow](architecture/data-flow.md)
 - [axiom-core index](index.md)
